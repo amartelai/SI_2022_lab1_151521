@@ -1,0 +1,125 @@
+5. git commit -a -m "Add 5 items to the shopping list” за да промените првин да се сместат во stage area па после тоа со -m да се сместат во unmodified. 
+
+6. git commit -a -m "Add quantities to the items” за да промените првин да се сместат во stage area па после тоа со -m да се сместат во unmodified. 
+
+7. git checkout -b branch1 и git checkout -b branch2 
+
+commit 925880cd90b6ebd04aff105692277d8a5556ebb0 (HEAD -> branch2, master, branch1)
+Author: Amar's MacBook 15 <amartelai@Amarss-MacBook-Pro.local>
+Date:   Mon Apr 11 03:26:33 2022 +0200
+
+    Add quantities to the items
+
+commit 0fd1150c3e77138802f03e7d6fa4e36474e16350
+Author: Amar's MacBook 15 <amartelai@Amarss-MacBook-Pro.local>
+Date:   Mon Apr 11 03:25:58 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 844487fbc4204f097cc8d4ff107ba69c1063af40 (origin/master, origin/HEAD)
+Author: amartelai <55350885+amartelai@users.noreply.github.com>
+Date:   Mon Apr 11 03:23:04 2022 +0200
+
+    Initial commit
+
+
+======================
+
+9. Со командата git checkout branch1 се префрлам во гранката branch1. Со командата git push origin branch1 се синхронизирам со remote repo-то. Истото се прави и со гранката branch2 
+
+10. Со командата git checkout branch1 се префрламе во гранката branch1 
+
+11. git commit -a -m "Change quantity of item #5” за да промените првин да се сместат во stage area па после тоа со -m да се сместат во unmodified. 
+
+12. Со командата git checkout master се префрламе во гранката master
+
+13.  git commit -a -m "Change quantity of item #2”” за да промените првин да се сместат во stage area па после тоа со -m да се сместат во unmodified. 
+
+14. Со командата git checkout branch1 се префрлам во гранката branch1. Со командата git push origin branch1 се синхронизирам со remote repo-то. Истото се прави и со гранката master
+
+
+commit 4a70d87ce4dbf40a87bf84dbcc6309900dd9e492 (HEAD -> branch2)
+Author: Amar's MacBook 15 <amartelai@Amarss-MacBook-Pro.local>
+Date:   Mon Apr 11 03:34:42 2022 +0200
+
+    Modify item #4
+
+commit 925880cd90b6ebd04aff105692277d8a5556ebb0 (origin/branch2)
+Author: Amar's MacBook 15 <amartelai@Amarss-MacBook-Pro.local>
+Date:   Mon Apr 11 03:26:33 2022 +0200
+
+    Add quantities to the items
+
+commit 0fd1150c3e77138802f03e7d6fa4e36474e16350
+Author: Amar's MacBook 15 <amartelai@Amarss-MacBook-Pro.local>
+Date:   Mon Apr 11 03:25:58 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 844487fbc4204f097cc8d4ff107ba69c1063af40
+Author: amartelai <55350885+amartelai@users.noreply.github.com>
+Date:   Mon Apr 11 03:23:04 2022 +0200
+
+    Initial commit
+
+
+=========
+
+
+commit d528c9de321e36465a22470bd80b6a1096f68c59 (HEAD -> master, origin/master, origin/HEAD)
+Author: Amar's MacBook 15 <amartelai@Amarss-MacBook-Pro.local>
+Date:   Mon Apr 11 03:32:23 2022 +0200
+
+    Change quantity of item #2”
+
+commit 925880cd90b6ebd04aff105692277d8a5556ebb0 (origin/branch2)
+Author: Amar's MacBook 15 <amartelai@Amarss-MacBook-Pro.local>
+Date:   Mon Apr 11 03:26:33 2022 +0200
+
+    Add quantities to the items
+
+commit 0fd1150c3e77138802f03e7d6fa4e36474e16350
+Author: Amar's MacBook 15 <amartelai@Amarss-MacBook-Pro.local>
+Date:   Mon Apr 11 03:25:58 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 844487fbc4204f097cc8d4ff107ba69c1063af40
+Author: amartelai <55350885+amartelai@users.noreply.github.com>
+Date:   Mon Apr 11 03:23:04 2022 +0200
+
+    Initial commit
+
+===============
+commit 84035c4029bee0eabac011f394f69bd4b20ec51d (HEAD -> branch1, origin/branch1)
+Author: Amar's MacBook 15 <amartelai@Amarss-MacBook-Pro.local>
+Date:   Mon Apr 11 03:31:58 2022 +0200
+
+    Change quantity of item #5
+
+commit 925880cd90b6ebd04aff105692277d8a5556ebb0 (origin/branch2)
+Author: Amar's MacBook 15 <amartelai@Amarss-MacBook-Pro.local>
+Date:   Mon Apr 11 03:26:33 2022 +0200
+
+    Add quantities to the items
+
+commit 0fd1150c3e77138802f03e7d6fa4e36474e16350
+Author: Amar's MacBook 15 <amartelai@Amarss-MacBook-Pro.local>
+Date:   Mon Apr 11 03:25:58 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 844487fbc4204f097cc8d4ff107ba69c1063af40
+Author: amartelai <55350885+amartelai@users.noreply.github.com>
+Date:   Mon Apr 11 03:23:04 2022 +0200
+
+    Initial commit
+
+======================
+
+15. Со командата git checkout branch2 се префрлам во гранката branch2
+
+
+
+ 
+
