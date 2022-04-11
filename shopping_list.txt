@@ -2,4 +2,4 @@ water x 2
 onion x 6
 orange x 5
 steak x 5
-juice x 4
+juice x 6
