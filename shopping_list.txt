@@ -1,5 +1,5 @@
 water x 2
 onion x 3
 orange x 5
-steak x 5
+chicken x 5
 juice x 4
